@@ -1,0 +1,19 @@
+{
+  "name": "oldboy-fr",
+  "version": "1.0.0",
+  "description": "OldBoy Franchise landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nigel-riss/oldboy-fr.git"
+  },
+  "author": "Yuriy Kurenkov, Daniil Vereschagin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nigel-riss/oldboy-fr/issues"
+  },
+  "homepage": "https://github.com/nigel-riss/oldboy-fr#readme"
+}
