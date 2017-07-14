@@ -388,3 +388,24 @@ template {
  */
 [hidden] {
   display: none; }
+
+html {
+  box-sizing: border-box;
+  user-select: none;
+  cursor: default; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  user-select: inherit;
+  cursor: inherit; }
+
+body {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  background-color: #000000; }
+
+.section {
+  padding: 0 20px; }

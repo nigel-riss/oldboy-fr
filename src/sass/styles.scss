@@ -1,1 +1,12 @@
+// normalize
 @import 'normalize.css';
+
+// globals
+@import 'base/vars';
+@import 'base/mixins';
+@import 'base/global';
+
+// modules
+@import 'modules/section';
+
+

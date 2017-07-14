@@ -1,0 +1,29 @@
+html {
+    // box model
+    box-sizing: border-box;
+
+    // visual
+    user-select: none;
+    cursor: default;
+}
+
+*,
+*::before,
+*::after {
+    // box model
+    box-sizing: inherit;
+
+    // visual
+    user-select: inherit;
+    cursor: inherit;
+}
+
+body {
+    // typography
+    color: $white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+
+    // visual
+    background-color: $black;
+}
