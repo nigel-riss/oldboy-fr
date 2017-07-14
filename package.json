@@ -15,5 +15,17 @@
   "bugs": {
     "url": "https://github.com/nigel-riss/oldboy-fr/issues"
   },
-  "homepage": "https://github.com/nigel-riss/oldboy-fr#readme"
+  "homepage": "https://github.com/nigel-riss/oldboy-fr#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "gulp": "^3.9.1",
+    "gulp-notify": "^3.0.0",
+    "gulp-pug2": "0.0.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-watch": "^4.3.11",
+    "sass-module-importer": "^1.4.0"
+  },
+  "dependencies": {
+    "normalize.css": "^7.0.0"
+  }
 }
