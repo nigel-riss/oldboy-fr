@@ -405,7 +405,116 @@ body {
   color: #ffffff;
   font-family: 'Roboto', sans-serif;
   font-size: 22px;
+  line-height: 1.5;
   background-color: #000000; }
 
+mark {
+  padding: 0 10px;
+  background-color: #ff9800; }
+
+strong {
+  font-size: 2em; }
+
+small {
+  font-size: 0.5em; }
+
+sup {
+  font-size: 0.5em; }
+
+em {
+  color: #ff9800;
+  font-style: normal; }
+
+h1 {
+  font-size: 2rem;
+  text-align: center; }
+
+h2 {
+  font-size: 2rem;
+  text-align: center; }
+
+.center {
+  text-align: center; }
+
+.right {
+  text-align: right; }
+
+.logo {
+  max-width: 100%;
+  padding: 20px; }
+  .logo img {
+    width: 100%; }
+
 .section {
-  padding: 0 20px; }
+  position: relative;
+  min-height: 100vh;
+  padding: 40px 20px;
+  overflow: hidden; }
+  .section__image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -2;
+    min-height: 100vh;
+    height: 100%;
+    width: 100%; }
+    .section__image img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover; }
+  .section__fade {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.75); }
+  .section__header {
+    position: relative; }
+    .section__header h2 {
+      padding-top: 5px;
+      padding-left: 60px;
+      text-align: left; }
+      .section__header h2.center {
+        padding-left: 0;
+        text-align: center; }
+  .section__number {
+    position: absolute;
+    left: -20px;
+    height: 60px;
+    width: 60px;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    border: 5px solid #ff9800;
+    border-left: none; }
+
+.feature-list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  .feature-list__item {
+    margin: 0;
+    padding: 0;
+    text-align: center; }
+    .feature-list__item img {
+      height: 128px;
+      width: 128px; }
+    .feature-list__item mark {
+      font-size: 1.75rem; }
+
+.arrow {
+  position: relative; }
+  .arrow::after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform-origin: 50% 50%;
+    transform: rotate(-45deg) translateX(-50%);
+    height: 32px;
+    width: 32px;
+    border-left: 8px solid #ff9800;
+    border-bottom: 8px solid #ff9800; }

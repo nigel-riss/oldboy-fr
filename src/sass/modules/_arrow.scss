@@ -1,0 +1,23 @@
+.arrow {
+    // positioning
+    position: relative;
+
+    &::after {
+        content: "";
+
+        // positioning
+        position: absolute;
+        bottom: -15px;
+        left: 50%;
+        transform-origin: 50% 50%;
+        transform: rotate(-45deg) translateX(-50%);
+
+        // box model
+        height: 32px;
+        width: 32px;
+
+        // visual
+        border-left: 8px solid $orange;
+        border-bottom: 8px solid $orange;
+    }
+}

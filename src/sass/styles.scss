@@ -7,6 +7,12 @@
 @import 'base/global';
 
 // modules
+// @import 'modules/*.scss';
+@import 'modules/logo';
 @import 'modules/section';
+@import 'modules/feature-list';
+
+// classes
+@import "modules/arrow";
 
 

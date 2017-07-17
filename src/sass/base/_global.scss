@@ -23,7 +23,60 @@ body {
     color: $white;
     font-family: 'Roboto', sans-serif;
     font-size: 22px;
+    line-height: 1.5;
 
     // visual
     background-color: $black;
 }
+
+mark {
+    // box model
+    padding: 0 10px;
+
+    // visual
+    background-color: $orange;
+}
+
+strong {
+    // typography
+    font-size: 2em;
+}
+
+small {
+    // typography
+    font-size: 0.5em;
+}
+
+sup {
+    // typography
+    font-size: 0.5em;
+}
+
+em {
+    // typography
+    color: $orange;
+    font-style: normal;
+}
+
+h1 {
+    // typography
+    font-size: 2rem;
+    text-align: center;
+}
+
+h2 {
+    // typography
+    font-size: 2rem;
+    text-align: center;
+}
+
+.center {
+    // typography
+    text-align: center;
+}
+
+.right {
+    // typography
+    text-align: right;
+}
+

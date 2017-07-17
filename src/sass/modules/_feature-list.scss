@@ -1,0 +1,28 @@
+.feature-list {
+    // box model
+    margin: 0;
+    padding: 0;
+
+    // visual
+    list-style: none;
+
+    &__item {
+        // box model
+        margin: 0;
+        padding: 0;
+
+        // typography
+        text-align: center;
+
+        img {
+            // box model
+            height: 128px;
+            width: 128px;
+        }
+
+        mark {
+            // typography
+            font-size: 1.75rem;
+        }
+    }
+}
