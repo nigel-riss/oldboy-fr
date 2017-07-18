@@ -9,6 +9,14 @@
     // visual
     overflow: hidden;
 
+    @include atTabletsPortrait {
+        // box model
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 40px 60px;
+    }
+
     &__image {
         // positioning
         position: absolute;
@@ -17,9 +25,24 @@
         z-index: -2;
 
         // box model
+        display: none;
         min-height: 100vh;
         height: 100%;
         width: 100%;
+        
+        @include atTabletsLandscape {
+            // box model
+            display: block;
+        }
+
+        &--small {
+            // box model
+            display: block;
+            
+            @include atTabletsLandscape {
+                display: none;
+            }
+        }
 
         img {
             // box model
@@ -51,7 +74,7 @@
 
         h2 {
             // box model
-            padding-top: 5px;
+            margin-top: 0;
             padding-left: 60px;
 
             // typography
@@ -84,9 +107,30 @@
         // visual
         border: 5px solid $orange;
         border-left: none;
+
+        @include atTabletsPortrait {
+            // positioning
+            left: -60px;
+
+            // box model
+            height: 80px;
+            width: 80px;
+
+            // typography
+            font-size: 3rem;
+        }
     }
 
     &__content {
 
+    }
+
+    &__gallery {
+        // box model
+        
+        img {
+            // box model
+            width: 100%;
+        }
     }
 }
